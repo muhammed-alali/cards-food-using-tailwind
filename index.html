@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: "red",
+            primary2: "#d8a16c"
+          },
+          screens: {
+            xs: "100px",
+            sm: "640px",
+            md: "768px",
+            lg: "1024px",
+            xl: "1170px",
+            "2xl": "1536px"
+          },
+          container: {
+            screens: {
+              xs: "260px",
+              sm: "640px",
+              md: "768px",
+              lg: "50px",
+              xl: "1170px",
+              "2xl": "1536px"
+            },
+          },
+        }
+
+      }
+    }
+  </script>
+</head>
+
+<body class="mt-10">
+  <section class="xs:block md:max-w-[650px]	lg:max-w-[900px] lg:flex   container  mx-auto gap-7">
+    <div class="relative mb-5">
+      <div class="group overflow-hidden">
+        <img src="/photo/download-1.webp"
+          class="w[100%] relative group-hover:origin-center group-hover:scale-[1.1]  duration-1000 ease-in-out">
+      </div>
+      <div class="absolute xs:bottom-[1rem] md:bottom-20 left-10 ">
+        <h3 class=" xs:text-[12px]  md:text-1xl py-1"> Seafood Snacks</h3>
+        <p class="xs:text-xl md:text-4xl py-2">Fried Chicken <br> & Fries</p>
+        <div class="text-sm text-[#dd762c]">
+          <a class="underline underline-offset-4" href="">
+            Shop Now
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="relative">
+      <div class="group overflow-hidden">
+        <img src="/photo/download-2.webp"
+          class="w[100%] relative group-hover:origin-center group-hover:scale-[1.1]  duration-1000 ease-in-out">
+      </div>
+      <div class="absolute xs:bottom-[1rem] md:bottom-20 left-10 ">
+        <h3 class=" xs:text-[12px]  md:text-1xl py-1"> Big Sale! Offer</h3>
+        <p class="xs:text-xl md:text-4xl py-2">Delicious Exotic <br> Seafood</p>
+        <div class="text-sm text-[#dd762c]">
+          <a class="underline underline-offset-4" href="">
+            Shop Now
+          </a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+  <section class="container mx-auto md:max-w-[650px]	lg:max-w-[900px] lg:flex xs:block  py-20 gap-8">
+    <!-- left -->
+    <div class="relative xs:mb-5 lg:mb-0">
+      <div class="group overflow-hidden">
+        <img src="/photo/download-3.webp "
+          class="w[100%] relative group-hover:origin-center group-hover:scale-[1.1]  duration-1000 ease-in-out">
+      </div>
+      <div class="absolute xs:bottom-[2rem] xs:left-[2rem] md:bottom-40 md:left-16">
+        <h3 class=" xs:text-[12px]  md:text-1xl py-1">Big Sale! Offer</h3>
+        <p class="xs:text-xl md:text-4xl py-2">Balanced Diet <br> &love Of Food <br> To Eat</p>
+        <div class="text-sm text-[#dd762c]"><a class="underline underline-offset-4" href="">
+            Shop Now
+          </a></div>
+      </div>
+    </div>
+
+    <!-- right -->
+
+    <div class="block ">
+
+      <div class="relative mb-5">
+        <div class="group overflow-hidden">
+          <img src="/photo/download-4.webp"
+            class="xs:h-[170px] md:h-auto w[100%] relative group-hover:origin-center group-hover:scale-[1.1]  duration-1000 ease-in-out">
+        </div>
+        <div class="absolute bottom-8 left-10">
+          <h3 class="  xs:text-[12px]  md:text-1xl py-1">Big Sale! Offer</h3>
+          <p class="xs:text-xl md:text-4xl py-2">Catfish Sliced <br> Pieces</p>
+          <div class="text-sm text-[#dd762c]"><a class="underline underline-offset-4" href=""> Shop Now </a></div>
+        </div>
+      </div>
+      <div class=" relative">
+        <div class="group overflow-hidden">
+          <img src="/photo/download-5.webp"
+            class="xs:h-[170px] md:h-auto w[100%]  relative group-hover:origin-center group-hover:scale-[1.1]  duration-1000 ease-in-out">
+        </div>
+        <div class="absolute xs:bottom-[3rem] xs:left-[9rem] md:bottom-[2rem] lg:bottom-[0.5rem] md:left-[24rem] lg:left-[17rem]">
+          <h3 class=" xs:text-[12px]  md:text-1xl py-1">Big Sale! Offer</h3>
+          <p class="xs:text-xl md:text-4xl py-2">Fried Shrimp <br> Paste</p>
+          <div class="text-sm text-[#dd762c]"><a href="" class="underline underline-offset-4">Shop Now</a></div>
+        </div>
+      </div>
+  </section>
+</body>
+
+</html>
